@@ -15,10 +15,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Dla zewnętrznych IOD: rejestr czynności i rejestr kategorii przetwarzania każdej firmy klienta w jednym miejscu, z przeglądami i raportami.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -79,106 +75,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <header><div class="wrap">
   <div class="logo"><a href="index.html" data-ev="click_logo_home">Rejestr IOD</a></div>
-  <nav class="top" aria-label="Menu"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<main>
-  <section class="hero">
-    <div class="wrap split">
-      <div class="rv">
-        <mark class="tag blue">Dla zewnętrznych IOD</mark>
-        <h1>Rejestry czynności przetwarzania wszystkich klientów. <em>W jednym miejscu, zawsze aktualne.</em></h1>
-        <p class="lede">Dla zewnętrznych Inspektorów Ochrony Danych obsługujących wiele firm: dla każdego klienta prowadzisz rejestr czynności przetwarzania i rejestr kategorii czynności, planujesz przeglądy i wysyłasz klientowi raport z tego, co zrobiono.</p>
-        <div class="actions">
-          <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-          <p class="note">Usługa w przygotowaniu · Nie pobieramy płatności na stronie</p>
-        </div>
-      </div>
-      <div class="window rv" style="--i:2" role="img" aria-label="Rysunek: lista klientów inspektora ze stanem rejestrów">
-        <div class="chrome"><i></i><i></i><i></i><span class="meta">Klienci · rejestry</span></div>
-        <ul class="list">
-          <li><div><b>Przychodnia rodzinna</b><small>rejestr czynności · teleporady</small></div><mark class="tag yellow">Zmiany</mark></li>
-          <li><div><b>Szkoła językowa</b><small>rejestr czynności · rekrutacja</small></div><mark class="tag red">Przegląd</mark></li>
-          <li><div><b>Biuro rachunkowe</b><small>rejestr kategorii · kadry i płace</small></div><mark class="tag green">Aktualny</mark></li>
-          <li><div><b>Sklep internetowy</b><small>rejestr czynności · newsletter</small></div><mark class="tag green">Aktualny</mark></li>
-          <li><small><kbd>R</kbd> raport dla klienta</small></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<div class="wrap">
+  <div class="hero">
+    <h1>Rejestry czynności przetwarzania wszystkich Twoich klientów — w jednym miejscu, zawsze aktualne</h1>
+    <p class="sub">Dla zewnętrznych Inspektorów Ochrony Danych obsługujących wiele firm: dla każdego klienta prowadzisz rejestr czynności przetwarzania i rejestr kategorii czynności, planujesz przeglądy i wysyłasz klientowi raport z tego, co zrobiono.</p>
+    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+    <p class="cta-note">Usługa w przygotowaniu · Nie pobieramy płatności na stronie</p>
+  </div>
 
   <section id="co" data-view="features_view">
-    <div class="wrap">
-      <div class="head rv">
-        <p class="meta">Co dostajesz</p>
-        <h2>Cztery rzeczy, które zwykle żyją w osobnych arkuszach</h2>
-      </div>
-      <div class="grid">
-        <div class="card wide split rv">
-          <div class="stack">
-            <i class="ico blue"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 3h10v14H5z"/><path d="M8 7h4M8 10h4M8 13h2"/></svg></i>
-            <h3>Rejestr czynności</h3>
-            <p>Rejestr czynności przetwarzania każdej firmy klienta, z celami, kategoriami danych i odbiorcami.</p>
-            <a class="btn" href="price.html" data-ev="feature_rejestr">Tego potrzebuję</a>
-          </div>
-          <dl aria-hidden="true">
-            <div><dt>czynność</dt><dd>teleporady</dd></div>
-            <div><dt>cel</dt><dd>świadczenie usług</dd></div>
-            <div><dt>dane</dt><dd>zdrowie, kontakt</dd></div>
-            <div><dt>odbiorcy</dt><dd>dostawca systemu</dd></div>
-            <div><dt>poza EOG</dt><dd>nie</dd></div>
-          </dl>
-        </div>
-        <div class="card rv" style="--i:1">
-          <i class="ico blue"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5h14M3 10h14M3 15h9"/></svg></i>
-          <h3>Rejestr kategorii</h3>
-          <p>Rejestr kategorii czynności dla firm, które przetwarzają dane w imieniu innych.</p>
-          <a class="btn" href="price.html" data-ev="feature_kategorie">Tego potrzebuję</a>
-        </div>
-        <div class="card rv" style="--i:2">
-          <i class="ico blue"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="7"/><path d="M10 6v4l3 2"/></svg></i>
-          <h3>Przeglądy</h3>
-          <p>Terminy przeglądów rejestrów i przypomnienia dla każdego klienta.</p>
-          <a class="btn" href="price.html" data-ev="feature_przeglady">Tego potrzebuję</a>
-        </div>
-        <div class="card wide split rv" style="--i:3">
-          <div class="stack">
-            <i class="ico blue"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16V9M10 16V4M16 16v-5"/></svg></i>
-            <h3>Raporty dla klienta</h3>
-            <p>Raport ze stanu rejestru i zmian, gotowy do wysłania klientowi.</p>
-            <a class="btn" href="price.html" data-ev="feature_raporty">Tego potrzebuję</a>
-          </div>
-          <svg width="220" height="160" viewBox="0 0 220 160" aria-hidden="true" fill="none" stroke="#05080b" stroke-width="1.6" stroke-linecap="round">
-            <rect x="62" y="26" width="132" height="124" rx="4" fill="#d6efff" stroke="none"/>
-            <path d="M40 12h110l20 20v118H40z" fill="#ffffff"/>
-            <path d="M150 12v20h20"/>
-            <path d="M56 40h60M56 56h88M56 68h80M56 80h88"/>
-            <path d="M56 100h20M56 112h44M56 124h32" stroke="#cf222e"/>
-            <path d="M120 128l8 8 18-22" stroke="#1a7f37" stroke-width="2.2"/>
-          </svg>
-        </div>
-      </div>
+    <h2>Co dostajesz</h2>
+    <div class="grid">
+      <div class="card"><b>Rejestr czynności</b><span>Rejestr czynności przetwarzania każdej firmy klienta, z celami, kategoriami danych i odbiorcami.</span><br><a class="btn" href="price.html" data-ev="feature_rejestr">Tego potrzebuję</a></div>
+      <div class="card"><b>Rejestr kategorii</b><span>Rejestr kategorii czynności dla firm, które przetwarzają dane w imieniu innych.</span><br><a class="btn" href="price.html" data-ev="feature_kategorie">Tego potrzebuję</a></div>
+      <div class="card"><b>Przeglądy</b><span>Terminy przeglądów rejestrów i przypomnienia dla każdego klienta.</span><br><a class="btn" href="price.html" data-ev="feature_przeglady">Tego potrzebuję</a></div>
+      <div class="card"><b>Raporty dla klienta</b><span>Raport ze stanu rejestru i zmian, gotowy do wysłania klientowi.</span><br><a class="btn" href="price.html" data-ev="feature_raporty">Tego potrzebuję</a></div>
     </div>
   </section>
 
   <section id="przyklad" data-view="example_view">
-    <div class="wrap">
-      <div class="head rv">
-        <p class="meta">Przykład · <mark class="tag blue">Dane fikcyjne</mark></p>
-        <h2>Poniedziałek zewnętrznego IOD</h2>
-      </div>
-      <blockquote class="rv" style="--i:1">Zewnętrzny IOD z 23 klientami: przychodnie, szkoły językowe, biura rachunkowe. W poniedziałek widzi, że u 4 klientów zbliża się roczny przegląd rejestru. Przy przychodni dopisuje nową czynność — teleporady — i wysyła dyrektorce raport ze zmianami z tego miesiąca.</blockquote>
-      <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
-    </div>
+    <h2>Przykład (dane fikcyjne)</h2>
+    <p class="fine">Zewnętrzny IOD z 23 klientami: przychodnie, szkoły językowe, biura rachunkowe. W poniedziałek widzi, że u 4 klientów zbliża się roczny przegląd rejestru. Przy przychodni dopisuje nową czynność — teleporady — i wysyła dyrektorce raport ze zmianami z tego miesiąca.</p>
+    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
   </section>
 <!-- seo-tekst:start -->
   <section id="opis">
-    <div class="wrap">
-      <div class="head rv">
-        <p class="meta">Opis</p>
-        <h2>Jak to działa</h2>
-      </div>
-      <div class="prose rv">
+    <h2>Jak to działa</h2>
     <p>Każdy administrator danych, który podlega obowiązkowi z art. 30 RODO, prowadzi rejestr czynności przetwarzania, a podmiot przetwarzający — rejestr kategorii czynności. Zewnętrzny Inspektor Ochrony Danych, który obsługuje kilkanaście lub kilkadziesiąt firm, odpowiada w praktyce za to, żeby te rejestry u każdego klienta były kompletne i aktualne.</p>
     <p>Najczęściej rejestry żyją w osobnych arkuszach i dokumentach — jeden plik na klienta, kolejne wersje w mailach. Gdy klient zmienia system, zatrudnia nowego dostawcę albo uruchamia nową usługę, inspektor musi pamiętać, w którym pliku to wpisać, a przy przeglądzie szuka, co się zmieniło od ostatniego razu.</p>
     <p>Program zbiera rejestry wszystkich klientów w jednym miejscu. Dla każdej firmy prowadzisz rejestr czynności przetwarzania: nazwę czynności, cel, kategorie osób i danych, odbiorców, przekazania poza EOG, okresy przechowywania i środki bezpieczeństwa. Dla klientów, którzy przetwarzają dane w imieniu innych, prowadzisz też rejestr kategorii czynności.</p>
@@ -191,56 +116,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Rozpoczęcie zajmuje jeden wieczór: dodajesz klientów, wgrywasz istniejące rejestry z arkuszy i ustawiasz terminy przeglądów. Program działa w przeglądarce, bez instalacji.</p>
     <p>Program jest przeznaczony dla zewnętrznych Inspektorów Ochrony Danych, kancelarii i firm prowadzących outsourcing IOD, a także dla wewnętrznych inspektorów w grupach spółek. Usługa jest w przygotowaniu: najpierw sprawdzamy, czy inspektorzy jej potrzebują.</p>
     <p>Program porządkuje dokumentację, ale nie zastępuje oceny inspektora i nie jest poradą prawną. Za treść rejestrów odpowiada administrator danych, a inspektor za swoje zalecenia.</p>
-      </div>
-    </div>
   </section>
   <section id="faq">
-    <div class="wrap">
-      <div class="head rv">
-        <p class="meta">FAQ</p>
-        <h2>Pytania i odpowiedzi</h2>
-      </div>
-      <div class="prose rv" style="--i:1">
-        <div class="qa"><h3>Dla kogo jest program?</h3>
-        <p>Dla zewnętrznych Inspektorów Ochrony Danych i firm prowadzących outsourcing IOD, obsługujących wiele firm.</p></div>
-        <div class="qa"><h3>Jakie rejestry można prowadzić?</h3>
-        <p>Rejestr czynności przetwarzania i rejestr kategorii czynności (art. 30 RODO) dla każdego klienta.</p></div>
-        <div class="qa"><h3>Czy mogę wysłać klientowi raport?</h3>
-        <p>Tak, raport ze stanu rejestru i zmian powstaje jednym kliknięciem.</p></div>
-        <div class="qa"><h3>Czy mogę zaimportować istniejące rejestry?</h3>
-        <p>Tak, z arkuszy kalkulacyjnych.</p></div>
-        <div class="qa"><h3>Czy mogę już korzystać?</h3>
-        <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy inspektorzy jej potrzebują.</p></div>
-      </div>
-    </div>
+    <h2>Pytania i odpowiedzi</h2>
+    <h3>Dla kogo jest program?</h3>
+    <p>Dla zewnętrznych Inspektorów Ochrony Danych i firm prowadzących outsourcing IOD, obsługujących wiele firm.</p>
+    <h3>Jakie rejestry można prowadzić?</h3>
+    <p>Rejestr czynności przetwarzania i rejestr kategorii czynności (art. 30 RODO) dla każdego klienta.</p>
+    <h3>Czy mogę wysłać klientowi raport?</h3>
+    <p>Tak, raport ze stanu rejestru i zmian powstaje jednym kliknięciem.</p>
+    <h3>Czy mogę zaimportować istniejące rejestry?</h3>
+    <p>Tak, z arkuszy kalkulacyjnych.</p>
+    <h3>Czy mogę już korzystać?</h3>
+    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy inspektorzy jej potrzebują.</p>
   </section>
 <!-- seo-tekst:end -->
   <section id="start" data-view="start_view">
-    <div class="wrap">
-      <div class="card split rv">
-        <div>
-          <div class="meta">Start</div>
-          <h2>Dodaj pierwszego klienta</h2>
-          <div class="lede">Usługa w przygotowaniu. Nie pobieramy płatności na stronie.</div>
-        </div>
-        <div class="stack">
-          <label>Liczba obsługiwanych firm<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>1</option><option>2–5</option><option>6–20</option><option>Ponad 20</option></select></label>
-          <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj</a>
-        </div>
-      </div>
-    </div>
+    <h2>Dodaj pierwszego klienta</h2>
+    <p><label>Liczba obsługiwanych firm<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>1</option><option>2–5</option><option>6–20</option><option>Ponad 20</option></select></label></p>
+    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj</a>
   </section>
-</main>
+</div>
 
 <footer><div class="wrap">
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
   <p class="muted">Prowadzenie dokumentacji RODO dla Twoich klientów. Nie jest poradą prawną; za rejestry odpowiada administrator danych.</p>
 </div></footer>
 
-<script>
-(function(){var d=document.documentElement;if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-d.classList.add('rv-on');var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px'});
-document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});})();
-</script>
 </body>
 </html>
